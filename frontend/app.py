@@ -16,6 +16,7 @@ st.set_page_config(page_title="Audit Contábil POC", layout="wide", page_icon="�
 
 # Endereço da sua API (Backend)
 API_URL = "http://127.0.0.1:8000"
+st.write(f"🔍 DEBUG: A API está conectando em: **{API_URL}**")
 
 st.title("📊 Painel de Auditoria Fiscal - POC")
 st.markdown("---")
